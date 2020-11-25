@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:vppreamp-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +31,7 @@ U 1 1 5F714A1A
 P 2750 2500
 F 0 "R1" H 2820 2546 50  0000 L CNN
 F 1 "10k" H 2820 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2680 2500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 2500 50  0001 C CNN
 F 3 "~" H 2750 2500 50  0001 C CNN
 	1    2750 2500
 	1    0    0    -1  
@@ -41,13 +42,11 @@ U 1 1 5F71512A
 P 2750 3800
 F 0 "R2" H 2820 3846 50  0000 L CNN
 F 1 "10k" H 2820 3755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2680 3800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 3800 50  0001 C CNN
 F 3 "~" H 2750 3800 50  0001 C CNN
 	1    2750 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 3300 2500 4250
 Wire Wire Line
 	2500 4250 2750 4250
 Wire Wire Line
@@ -59,13 +58,13 @@ U 1 1 5F719589
 P 3200 3200
 F 0 "Cin1" V 2948 3200 50  0000 C CNN
 F 1 "100n" V 3039 3200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 3238 3050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 3238 3050 50  0001 C CNN
 F 3 "~" H 3200 3200 50  0001 C CNN
 	1    3200 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 3200 3050 3200
+	2500 3200 2600 3200
 Wire Wire Line
 	2750 2650 2750 2850
 $Comp
@@ -141,7 +140,7 @@ U 1 1 5F7249ED
 P 4650 3700
 F 0 "Rf1" V 4443 3700 50  0000 C CNN
 F 1 "1M" V 4534 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4580 3700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4580 3700 50  0001 C CNN
 F 3 "~" H 4650 3700 50  0001 C CNN
 	1    4650 3700
 	0    1    1    0   
@@ -163,7 +162,7 @@ U 1 1 5F72566E
 P 4600 4100
 F 0 "Cf1" V 4348 4100 50  0000 C CNN
 F 1 "10n" V 4439 4100 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 4638 3950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 4638 3950 50  0001 C CNN
 F 3 "~" H 4600 4100 50  0001 C CNN
 	1    4600 4100
 	0    1    1    0   
@@ -184,7 +183,7 @@ U 1 1 5F7265BD
 P 5250 3100
 F 0 "C2" V 4998 3100 50  0000 C CNN
 F 1 "220n" V 5089 3100 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 5288 2950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 5288 2950 50  0001 C CNN
 F 3 "~" H 5250 3100 50  0001 C CNN
 	1    5250 3100
 	0    1    1    0   
@@ -223,7 +222,7 @@ U 1 1 5F7292E4
 P 6800 2800
 F 0 "R7" H 6870 2846 50  0000 L CNN
 F 1 "10k" H 6870 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6730 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6730 2800 50  0001 C CNN
 F 3 "~" H 6800 2800 50  0001 C CNN
 	1    6800 2800
 	1    0    0    -1  
@@ -285,7 +284,7 @@ U 1 1 5F738CD2
 P 5650 2800
 F 0 "R3" H 5720 2846 50  0000 L CNN
 F 1 "22k" H 5720 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5580 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5580 2800 50  0001 C CNN
 F 3 "~" H 5650 2800 50  0001 C CNN
 	1    5650 2800
 	1    0    0    -1  
@@ -308,7 +307,7 @@ U 1 1 5F73A4FE
 P 6100 3900
 F 0 "R4" V 5893 3900 50  0000 C CNN
 F 1 "10k" V 5984 3900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6030 3900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3900 50  0001 C CNN
 F 3 "~" H 6100 3900 50  0001 C CNN
 	1    6100 3900
 	0    1    1    0   
@@ -319,7 +318,7 @@ U 1 1 5F73AE40
 P 5850 4200
 F 0 "R5" H 5780 4154 50  0000 R CNN
 F 1 "10k" H 5780 4245 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5780 4200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 4200 50  0001 C CNN
 F 3 "~" H 5850 4200 50  0001 C CNN
 	1    5850 4200
 	-1   0    0    1   
@@ -341,7 +340,7 @@ U 1 1 5F73DEBF
 P 7000 3400
 F 0 "R6" V 6793 3400 50  0000 C CNN
 F 1 "100ohm" V 6884 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6930 3400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6930 3400 50  0001 C CNN
 F 3 "~" H 7000 3400 50  0001 C CNN
 	1    7000 3400
 	0    1    1    0   
@@ -502,7 +501,7 @@ F 1 "Barrel_Jack_Switch" H 8420 2541 50  0000 R CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8700 2460 50  0001 C CNN
 F 3 "~" H 8700 2460 50  0001 C CNN
 	1    8650 2500
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7950 2700 8350 2700
@@ -514,4 +513,50 @@ Wire Wire Line
 Wire Wire Line
 	8350 2350 8350 2400
 Connection ~ 7950 2350
+$Comp
+L Connector_Generic:Conn_01x06 InJack1
+U 1 1 5FBEA7B6
+P 1900 3250
+F 0 "InJack1" H 1820 3667 50  0000 C CNN
+F 1 "InJack" H 1820 3576 50  0000 C CNN
+F 2 "NateLibrary:StereoJackTRS3" H 1900 3250 50  0001 C CNN
+F 3 "~" H 1900 3250 50  0001 C CNN
+	1    1900 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 OutJack1
+U 1 1 5FBEA893
+P 9200 4150
+F 0 "OutJack1" H 9120 4567 50  0000 C CNN
+F 1 "OutJack" H 9120 4476 50  0000 C CNN
+F 2 "NateLibrary:StereoJackTRS3" H 9200 4150 50  0001 C CNN
+F 3 "~" H 9200 4150 50  0001 C CNN
+	1    9200 4150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8350 4050 8350 3950
+Wire Wire Line
+	8350 3950 9000 3950
+Connection ~ 8350 4050
+Wire Wire Line
+	8350 4150 8350 4350
+Wire Wire Line
+	8350 4350 9000 4350
+Connection ~ 8350 4150
+Wire Wire Line
+	2500 3300 2500 3450
+Wire Wire Line
+	2500 3450 2100 3450
+Connection ~ 2500 3450
+Wire Wire Line
+	2500 3450 2500 4250
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3200 3050 3200
+Wire Wire Line
+	2100 3050 2600 3050
+Wire Wire Line
+	2600 3050 2600 3200
 $EndSCHEMATC
