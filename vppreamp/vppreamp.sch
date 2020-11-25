@@ -493,4 +493,25 @@ F 3 "~" H 2300 3200 50  0001 C CNN
 	1    2300 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J3
+U 1 1 5FBE8FDA
+P 8650 2500
+F 0 "J3" H 8420 2450 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 8420 2541 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8700 2460 50  0001 C CNN
+F 3 "~" H 8700 2460 50  0001 C CNN
+	1    8650 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 2700 8350 2700
+Wire Wire Line
+	8350 2700 8350 2600
+Connection ~ 7950 2700
+Wire Wire Line
+	7950 2350 8350 2350
+Wire Wire Line
+	8350 2350 8350 2400
+Connection ~ 7950 2350
 $EndSCHEMATC
