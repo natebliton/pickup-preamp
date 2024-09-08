@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vppreamp-rescue")(type "KiCad")(uri "${KIPRJMOD}/vppreamp-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "violapreamprev2-rescue")(type "KiCad")(uri "${KIPRJMOD}/violapreamprev2-rescue.kicad_sym")(options "")(descr ""))
+)
